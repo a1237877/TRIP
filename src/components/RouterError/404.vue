@@ -8,7 +8,6 @@
 
 <script>
 import {ResultPage} from 'mand-mobile'
-
 export default {
   name: 'result-page-demo',
   /* DELETE */
@@ -18,7 +17,6 @@ export default {
     [ResultPage.name]: ResultPage,
   },
 }
-
 </script>
 
 <style lang="stylus">

@@ -2,7 +2,7 @@
   "name": "trip",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "weicheng1997 <951039237@qq.com>",
+  "author": "wn <652501825@qq.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
@@ -15,8 +15,7 @@
     "qs": "^6.7.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
-    "vuex": "^3.1.1",
-    "webpack-dev-server": "^2.9.7"
+    "vuex": "^3.1.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -54,6 +53,7 @@
     "vue-template-compiler": "^2.5.2",
     "webpack": "^3.6.0",
     "webpack-bundle-analyzer": "^2.9.0",
+    "webpack-dev-server": "^2.9.1",
     "webpack-merge": "^4.1.0"
   },
   "engines": {
