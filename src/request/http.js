@@ -32,6 +32,7 @@ axios.interceptors.response.use(function(response) {
 }, function(error) {
   Toast.failed('响应过程出错')
   return Promise.reject(error)
+
 })
 
 var request = (options) => {

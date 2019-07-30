@@ -16,7 +16,7 @@ const commonRoutes = [
 // 分模块的路由，合并传入Router
 let router = new Router({
   base: process.env.BASE_URL,
-  routes: commonRoutes.concat(User,Trip)
+  routes: commonRoutes.concat(User, Trip)
 })
 
 // 导航守卫,非登录状态先登录

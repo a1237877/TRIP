@@ -1,10 +1,22 @@
 const tripRoutes = [
   {
-    path:'/trip',
-    name:'Trip',
-    components:() => import('@/views/trip/trip'),
-    meta:{  //定义的是窗口的名字
-      title:'出行'
-    }
+    path: '/trip',
+    name: 'Trip',
+    component: () => import('@/views/trip/trip'),
+    meta: {
+      title: '出行'
+    },
+    children: [
+      {
+        path: 'map',
+        name: 'Map',
+        component: () => import('@/components/MapLocation/index'),
+        meta: {
+          title: '地图'
+        }
+      }
+    ]
   }
 ]
+
+export default tripRoutes
